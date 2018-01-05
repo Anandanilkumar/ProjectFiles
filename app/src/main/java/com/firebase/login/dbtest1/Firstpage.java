@@ -52,6 +52,7 @@ public class Firstpage extends AppCompatActivity implements View.OnClickListener
         // [START initialize_auth]
         mAuth = FirebaseAuth.getInstance();
         // [END initialize_auth]
+        //this is a commecnt sd
     }
 
     // [START on_start_check_user]
