@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/usernametitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="UserName"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:text="UserName" />
+
+    <TextView
+        android:id="@+id/numbertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernametitle"
+        android:text="Phone NUmber" />
+
+    <TextView
+        android:id="@+id/statustitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/usernametitle"
+        android:layout_alignParentTop="true"
+        android:text="Status"
+        android:textColor="?attr/actionModeSplitBackground" />
+
+</RelativeLayout>
